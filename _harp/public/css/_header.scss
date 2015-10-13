@@ -1,0 +1,42 @@
+.header { max-width: 1366px; }
+
+.bg__banner {
+  position: relative;
+  height: auto;
+
+  &_img {
+    width: 100%;
+    max-width: 1366px;
+  }
+}
+
+.logo__nl{
+  top: 0;
+  left: 0;
+  position: absolute;
+
+  &_img {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* menu */
+.menu {
+  text-align: center;
+  width: 100%;
+  @include font-size(1.4);
+
+  &__lista {
+    padding: 0 !important;
+
+    a { color: $text-bg-white; }
+
+    &_item {
+      padding-right: 100px;
+      display: inline-block;
+
+      :last-child { padding: 0 }
+    }
+  }
+}

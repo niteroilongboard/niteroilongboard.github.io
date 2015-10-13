@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <title><%- title %></title>
+    </head>
+    <body>
+        <%- partial("partials/_header") %>
+        <div class="container">
+            <%- yield %>
+        </div>
+        <%- partial("partials/_footer") %>
+    </body>
+</html>

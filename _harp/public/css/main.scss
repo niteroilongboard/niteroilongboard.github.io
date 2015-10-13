@@ -1,0 +1,21 @@
+@import "normalize";
+@import "base";
+@import "header";
+@import "post";
+@import "footer";
+
+/* ========== GLOBAL ========== */
+
+.flex { display: flex; }
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+li { list-style: none; }
+
+a { text-decoration: none; }
+
+body { font-family: "Abel"; }

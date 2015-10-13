@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  max-width: 1366px;
+  height: 50px;
+  background-color: $bg-dark;
+
+  &__content {
+    margin: auto 15px;
+    @include font-size(1);
+    color: $text-bg-dark;
+  }
+}

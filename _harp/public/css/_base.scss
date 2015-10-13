@@ -1,0 +1,23 @@
+/* ========== mixin's ========== */
+@mixin mq($size, $max: false) {
+  @if ($max) {
+    @media (max-width: $size) {
+      @content;
+    }
+  }
+  @else {
+    @media (min-width: $size) {
+      @content;
+    }
+  }
+}
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+/* ========== cores ========== */
+$text-bg-white: #232523;
+$text-bg-dark: #ffffff;
+$bg-dark: #232523;
