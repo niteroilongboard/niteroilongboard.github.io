@@ -6,6 +6,6 @@ Apesar do foco do site ser para longboard, não deixamos de fora também as outr
 
 Toda semana serão postados no mínimo dois [artigos](/articles.html) sobre o universo do skaterboard, variando entre tutoriais, novidades, locais para praticar ou de outros temas sugeridos.
 
-Aqui também serão postadas as fotos do instagram com a hashtag _#niteroilongboard_, então caso queira que aquela sua foto irada apareça aqui e em nosso perfil do instagram não esqueça de usar a hashtag _#niteroilongboard_ e de seguir o perfil [_niteroilongboard_](instagram.com/niteroilongboard).
+Aqui também serão postadas as fotos do instagram com a hashtag _#niteroilongboard_, então caso queira que aquela sua foto irada apareça aqui e em nosso perfil do instagram não esqueça de usar a hashtag _#niteroilongboard_ e de seguir o perfil [_niteroilongboard_](http://www.instagram.com/niteroilongboard).
 
 Caso tenha alguma dúvida, sugestão, crítica ou elogio a fazer entre em contato conosco por [este link](fale-conosco.html).
