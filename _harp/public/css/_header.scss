@@ -2,11 +2,11 @@
 
 .bg__banner {
   position: relative;
-  height: auto;
+  max-width: 100%;
 
   &_img {
-    width: 100%;
-    max-width: 1366px;
+    max-width: 100%;
+    border-bottom: 10px solid $text-bg-white;
   }
 }
 
@@ -16,8 +16,11 @@
   position: absolute;
 
   &_img {
-    width: 100%;
-    max-width: 280px;
+    max-width: 40%;
+
+    @include mq($screen-md) {
+      max-width: 50%;
+    }
   }
 }
 

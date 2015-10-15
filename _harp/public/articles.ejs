@@ -1,0 +1,33 @@
+<h1>Artigos</h1>
+
+<ul class="post-loop flex">
+
+    <% for(article in public.articles._data) { %>
+        <li class="post-item">
+            <a href="/articles/<%- article %>.html" >
+                <span class="post-title">
+                    <%- public.articles._data[article].title %>
+                </span>
+
+                <span class="post-desc">
+                    <%- public.articles._data[article].description %>
+                </span>
+            </a>
+        </li>
+    <% } %>
+</ul>
+   <!-- <ul id="pagination" class="post-pagination"></ul> -->
+
+<!-- <script>
+
+
+    (function($) {
+        $(document).ready(function() {
+            $('#pagination').pagination({
+                items: $('.post-item').length,
+                itemsOnPage: 5,
+                cssStyle: 'light-theme'
+            });
+        });
+    })(jQuery);
+</script> -->

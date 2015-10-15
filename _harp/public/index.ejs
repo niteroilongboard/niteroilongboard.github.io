@@ -1,17 +1,1 @@
-<div class="post-container">
-    <ul class="post-loop">
-        <% for(article in public.articles._data) { %>
-            <a href="/articles/<%- article %>.html">
-                <li class="post-item">
-                    <span class="post-title">
-                        <%- public.articles._data[article].title %>
-                    </span>
-
-                    <span class="post-desc">
-                        <%- public.articles._data[article].description %>
-                    </span>
-                </li>
-            </a>
-        <% } %>
-    </ul>
-</div>
+<%- partial("partials/_index") %>

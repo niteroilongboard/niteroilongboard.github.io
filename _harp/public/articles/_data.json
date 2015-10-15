@@ -1,12 +1,7 @@
 {
-  "bem-vindo-ao-niteroi-longboard": {
-    "title": "Bem vindo ao Niterói Longboard",
-    "date": "2013-08-19",
-    "description": "Neste primeiro post vou lhe apresentar ao Niterói Longboard. Veja quem somos, o que fazemos e nossa filosofia."
-  },
-  "welcome-to-harp": {
-    "title": "Welcome to Harp",
-    "date": "2013-09-01",
-    "description": "Seja bem vindo ao Harpjs"
+  "tipos-de-longboard": {
+    "title": "Tipos de Longboard",
+    "date": "15-10-2015",
+    "description": "Conheça aqui quais são os tipos de longboard e em quais modalidades são usados"
   }
 }

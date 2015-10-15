@@ -6,16 +6,31 @@
 
 /* ========== GLOBAL ========== */
 
+html { box-sizing: border-box; }
+
+* { box-sizing: inherit; }
+
 .flex { display: flex; }
 
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1000px;
+  max-height: 520px;
   margin: 0 auto;
+  overflow: auto;
 }
 
 li { list-style: none; }
 
-a { text-decoration: none; }
+a {
+  color: #FF9518;
+  text-decoration: none;
+}
 
-body { font-family: "Abel"; }
+body {
+
+  strong { text-decoration: underline; }
+
+  @include font-size(1.2);
+  font-family: "Abel";
+}
