@@ -1,4 +1,7 @@
-.header { max-width: 1366px; }
+.header {
+  max-width: 1366px;
+  margin: 0 auto;
+}
 
 .bg__banner {
   position: relative;
@@ -16,7 +19,7 @@
   position: absolute;
 
   &_img {
-    max-width: 40%;
+    max-width: 70%;
 
     @include mq($screen-md) {
       max-width: 50%;
