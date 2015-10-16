@@ -19,8 +19,10 @@
     </head>
     <body>
         <header class="header">
-    <div class="bg__banner">
-        <img class="bg__banner_img" src="/images/bg_niteroi.jpg" alt="Vista da cidade de Niterói">
+    <div class="bg__header">
+        <div class="bg__banner">
+            <img class="bg__banner_img" src="/images/bg_niteroi.jpg" alt="Vista da cidade de Niterói">
+        </div>
 
         <div class="logo__nl">
             <a href="https://www.niteroilongboard.com"><img class="logo__nl_img" src="/images/niteroilongboard.png" alt="logo niterói longboard"></a>
@@ -45,33 +47,36 @@
 
     
         <li class="post-item">
-            <a href="/articles/tipos-de-longboard.html">
+            <a href="/articles/modalidades-de-longboard.html">
                 <span class="post-title">
-                    Tipos de Longboard
+                    Modalidades de Longboard
                 </span>
 
                 <span class="post-desc">
                     Conheça aqui quais são os tipos de longboard e em quais modalidades são usados
                 </span>
+
+                <span class="post-date">
+                    15-10-2015
+                </span>
             </a>
         </li>
     
 </ul>
-   <!-- <ul id="pagination" class="post-pagination"></ul> -->
 
-<!-- <script>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'niteroilongboardgithubio';
 
-
-    (function($) {
-        $(document).ready(function() {
-            $('#pagination').pagination({
-                items: $('.post-item').length,
-                itemsOnPage: 5,
-                cssStyle: 'light-theme'
-            });
-        });
-    })(jQuery);
-</script> -->
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         </div>
         <footer class="footer flex">
     <span class="footer__content"> Niterói Longboard Copyright © 2015 All Rights Reserved</span>
