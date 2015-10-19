@@ -6,7 +6,13 @@
 
   &__content {
     margin: auto 15px;
-    @include font-size(1);
     color: $text-bg-dark;
+    @include font-size(.8);
+
+    @include mq($screen-sm) {
+
+      @include font-size(1);
+    }
+
   }
 }

@@ -1,6 +1,7 @@
 @import "normalize";
 @import "base";
 @import "header";
+@import "burger";
 @import "post";
 @import "footer";
 
@@ -38,4 +39,4 @@ body {
 }
 
 html,
-body { height: 75%; }
+body { height: 100%; }

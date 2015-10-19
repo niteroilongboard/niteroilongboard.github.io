@@ -13,14 +13,13 @@
 .post-item {
   // position: relative;
   width: 100%;
-  min-height: 200px;
-  height: auto;
-  margin: 10px 10px;
-  border: 2px solid $bg-dark;
 
-
-  @include mq($screen-md) {
+  @include mq($screen-sm) {
     max-width: calc(33.3% - 20px);
+    min-height: 200px;
+    height: auto;
+    margin: 10px 10px;
+    border: 2px solid $bg-dark;
   }
 }
 
@@ -34,15 +33,25 @@
 }
 
 .post-desc {
-  padding: 10px;
-  @include font-size(1.2);
+  display: none;
+
+  @include mq($screen-sm) {
+    display: inline;
+    padding: 10px;
+    @include font-size(1.2);
+  }
 }
 
 .post-date {
-  padding: 10px;
-  text-align: left;
-  display: block;
-  @include font-size(1);
+  display: none;
+
+  @include mq($screen-sm) {
+    display: inline;
+    padding: 10px;
+    text-align: left;
+    display: block;
+    @include font-size(1);
+  }
 }
 
 #disqus_thread { margin: 50px 0; }
