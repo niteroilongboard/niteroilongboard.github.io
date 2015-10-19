@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+
         <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -8,12 +10,6 @@
         <link rel="stylesheet" type="text/css" href="/css/simplePagination.css">
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-        <!-- <script src="/js/jquery.twbsPagination.min.js"></script>
-
-        <script src="/js/jquery.simplePagination.js"></script>
-
-        <script src="/js/pagination.js"></script> -->
 
         <title>Niterói Longboad</title>
     </head>
@@ -25,18 +21,31 @@
         </div>
 
         <div class="logo__nl">
-            <a href="https://www.niteroilongboard.com"><img class="logo__nl_img" src="/images/niteroilongboard.png" alt="logo niterói longboard"></a>
+            <a href="/"><img class="logo__nl_img" src="/images/niteroilongboard.png" alt="logo niterói longboard"></a>
         </div>
     </div>
-    <div class="menu">
+
+    <div class="menu" id="menu">
         <ul class="menu__lista">
-            <li class="menu__lista_item"><a href="/" class="menu-item">Home</a></li>
+            <li class="responsive-buttom visible-phone">
+                <a href="#" class="menu-icon">Menu</a>
+            </li>
 
-            <li class="menu__lista_item"><a href="/articles.html" class="menu-item">Artigos</a></li>
+            <li class="menu__lista_item">
+                <a href="/" class="menu-item">Home</a>
+            </li>
 
-            <li class="menu__lista_item"><a href="/fotos.html" class="menu-item">Fotos</a></li>
+            <li class="menu__lista_item">
+                <a href="/articles.html" class="menu-item">Artigos</a>
+            </li>
 
-            <li class="menu__lista_item"><a href="/fale-conosco.html" class="menu-item">Fale conosco</a></li>
+            <li class="menu__lista_item">
+                <a href="/fotos.html" class="menu-item">Fotos</a>
+            </li>
+
+            <li class="menu__lista_item">
+                <a href="/fale-conosco.html" class="menu-item">Fale conosco</a>
+            </li>
         </ul>
     </div>
 </header>
@@ -69,5 +78,12 @@
 
     <span class="footer__content">Desenvolvido por Higor Neves</span>
 </footer>
+        <script>
+            $(document).ready(function() {
+                $(".responsive-buttom").click(function() {
+                    $(".menu__lista_item").toggle(300);
+                });
+            });
+        </script>
     </body>
 </html>
